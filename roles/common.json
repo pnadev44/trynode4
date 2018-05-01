@@ -1,0 +1,7 @@
+{
+	  "name": "common",
+	    "description": "This role installs the common packages to be present on all servers",
+	      "run_list": [
+		          "recipe[common_packages]"
+			    ]
+}
