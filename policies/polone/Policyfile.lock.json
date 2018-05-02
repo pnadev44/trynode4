@@ -1,0 +1,172 @@
+{
+  "revision_id": "777a6004c1f9b08153b0db8f264435794f527cd5772f8f4c2ba7cb4df85c81fa",
+  "name": "polone",
+  "run_list": [
+    "recipe[nodejs::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "ark": {
+      "version": "3.1.0",
+      "identifier": "263bdd4cc6c4958b9966df223059f531c3ace7fb",
+      "dotted_decimal_identifier": "10761870776910997.39293688872054873.269594085091323",
+      "cache_key": "ark-3.1.0-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/ark/versions/3.1.0/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/ark/versions/3.1.0/download",
+        "version": "3.1.0"
+      }
+    },
+    "build-essential": {
+      "version": "8.1.1",
+      "identifier": "2576e10b52babc28fbebc105c582a62d6a9b18a6",
+      "dotted_decimal_identifier": "10545283067984572.11535989042693506.182713992288422",
+      "cache_key": "build-essential-8.1.1-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/build-essential/versions/8.1.1/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/build-essential/versions/8.1.1/download",
+        "version": "8.1.1"
+      }
+    },
+    "mingw": {
+      "version": "2.0.2",
+      "identifier": "87dc0e77dd1ad387858fafd0f542fc82bd73af24",
+      "dotted_decimal_identifier": "38241076554570451.38145974032463170.277638454423332",
+      "cache_key": "mingw-2.0.2-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/mingw/versions/2.0.2/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/mingw/versions/2.0.2/download",
+        "version": "2.0.2"
+      }
+    },
+    "nodejs": {
+      "version": "5.0.0",
+      "identifier": "53971eae854b2d6a732a011c6380a717fa8e995c",
+      "dotted_decimal_identifier": "23528581099768621.29962971775787904.183721429735772",
+      "source": "../../cookbooks/nodejs",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": "b5a9105d892845f1d8eebf2c44b276468bf7eece",
+        "working_tree_clean": false,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": "../../cookbooks/nodejs"
+      }
+    },
+    "seven_zip": {
+      "version": "2.0.2",
+      "identifier": "8e6795446cfa8e0a4a09cef4d5d35eb2d522a24d",
+      "dotted_decimal_identifier": "40083337488693902.2896155754419667.104122173006413",
+      "cache_key": "seven_zip-2.0.2-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/seven_zip/versions/2.0.2/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/seven_zip/versions/2.0.2/download",
+        "version": "2.0.2"
+      }
+    },
+    "windows": {
+      "version": "4.2.2",
+      "identifier": "c5aa04990015c3acee16faeb975869149d8073e4",
+      "dotted_decimal_identifier": "55637507135509955.48675478460667736.115537262703588",
+      "cache_key": "windows-4.2.2-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/windows/versions/4.2.2/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/windows/versions/4.2.2/download",
+        "version": "4.2.2"
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "ark",
+        "= 3.1.0"
+      ],
+      [
+        "build-essential",
+        "= 8.1.1"
+      ],
+      [
+        "mingw",
+        "= 2.0.2"
+      ],
+      [
+        "nodejs",
+        ">= 0.0.0"
+      ],
+      [
+        "seven_zip",
+        "= 2.0.2"
+      ],
+      [
+        "windows",
+        "= 4.2.2"
+      ]
+    ],
+    "dependencies": {
+      "ark (3.1.0)": [
+        [
+          "build-essential",
+          ">= 0.0.0"
+        ],
+        [
+          "windows",
+          ">= 0.0.0"
+        ],
+        [
+          "seven_zip",
+          ">= 0.0.0"
+        ]
+      ],
+      "build-essential (8.1.1)": [
+        [
+          "seven_zip",
+          ">= 0.0.0"
+        ],
+        [
+          "mingw",
+          ">= 1.1.0"
+        ]
+      ],
+      "mingw (2.0.2)": [
+        [
+          "seven_zip",
+          ">= 0.0.0"
+        ]
+      ],
+      "nodejs (5.0.0)": [
+        [
+          "build-essential",
+          ">= 0.0.0"
+        ],
+        [
+          "ark",
+          ">= 2.0.2"
+        ]
+      ],
+      "seven_zip (2.0.2)": [
+        [
+          "windows",
+          ">= 1.2.2"
+        ]
+      ],
+      "windows (4.2.2)": [
+
+      ]
+    }
+  }
+}
