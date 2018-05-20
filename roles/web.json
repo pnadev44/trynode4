@@ -1,15 +1,10 @@
 {
-	  "name": "web",
-	  "description": "This role installs the web cookbook",
-	  "json_class": "Chef::Role",
-	  "default_attributes": {
-	  },
-	  "override_attributes": {},
-	  "chef_type": "role",
-	  "run_list": [],
-	  "env_run_lists": {
-		"dev": [
-			"recipe[nodejs]"
-		    ]
-	  }
+  "name": "web",
+  "description": "This role installs the web cookbook",
+  "env_run_lists": {
+    "dev": [
+      "recipe[nodejs]",
+      "recipe[chef-client]"
+    ]
+  }
 }

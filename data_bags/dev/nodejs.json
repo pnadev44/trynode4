@@ -1,0 +1,5 @@
+{
+  "id": "nodejs",
+  "njs_port": "8081",
+  "njs_welcometxt": "welcome on my nodejs http server installed on aws by chef and here is the current date: "
+}

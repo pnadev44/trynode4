@@ -1,0 +1,10 @@
+{
+  "id": "admins",
+  "admins": {
+    "encrypted_data": "XbHyV2C2AyqDCsUZLar8Fe1q/20B1+83xs+9KmKARH/jJXlwM5CRs5vzYtD3\nUZQ4ixJi7ZR9zilgsfRErWVxepJ1AxcQmOWbNiU/JStqql3DBfRzldiv8uBe\nTzqbETIeR5b6iHzZglHGiaD/Aow69xD9JSLJ2DtwkaZqfKrTJ/aDeKWEQSX3\n8eysEoJOG2XyHvxk3UkX/TmxvSdI\n",
+    "iv": "7QUfmH10Qjnon3Xa\n",
+    "auth_tag": "KlLCxSORsaDqHCVCPBdkRw==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  }
+}

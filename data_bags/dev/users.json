@@ -1,0 +1,23 @@
+{
+  "id": "users",
+  "users": {
+    "maurice": {
+      "id": "maurice",
+      "password": "123",
+      "db": "mydb",
+      "role": "readWrite"
+    },
+    "rene": {
+      "id": "rene",
+      "password": "123",
+      "db": "mydb",
+      "role": "readWrite"
+    },
+    "momo": {
+      "id": "momo",
+      "password": "123",
+      "db": "mydb",
+      "role": "read"
+    }
+  }
+}
