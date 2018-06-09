@@ -1,0 +1,7 @@
+server = "chef-auto-server-bplpdbj39aqqcnkm.eu-central-1.opsworks-cm.io"
+api_protocol = "https"
+user = "admin"
+enterprise = "default"
+organization = "pnaorga"
+git_port = "8989"
+pipeline = "master"
