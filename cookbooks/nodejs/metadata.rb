@@ -1,6 +1,6 @@
 name 'nodejs'
 chef_version '>= 12.14' if respond_to?(:chef_version)
-version '5.0.6'
+version '5.0.7'
 
 depends 'build-essential'
 depends 'ark', '>= 2.0.2'
