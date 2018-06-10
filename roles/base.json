@@ -1,0 +1,9 @@
+{
+  "name": "base",
+  "description": "This role installs the base cookbook yes",
+  "env_run_lists": {
+    "dev": [
+      "recipe[chef-client]"
+    ]
+  }
+}
